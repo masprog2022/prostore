@@ -52,8 +52,8 @@ export function round2(value: number | string) {
   }
 }
 
-const CURRENCY_FORMATTER = new Intl.NumberFormat("en-US", {
+/*const CURRENCY_FORMATTER = new Intl.NumberFormat("en-US", {
   currency: "USD",
   style: "currency",
   minimumFractionDigits: 2,
-});
+});*/
