@@ -37,6 +37,7 @@ export async function addItemToCart(data: CartItem) {
       "ITEM REQUESTS": item,
       "Product Found": product,
     });
+    console.log(cart);
 
     return {
       success: true,
